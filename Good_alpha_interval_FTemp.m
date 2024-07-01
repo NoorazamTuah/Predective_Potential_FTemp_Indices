@@ -66,7 +66,7 @@ colCurve = {[0, 0.75, 0.75]};
 % Iterate over each experimental data (E_{π})
 for ii = 1:numData
     % Create a new figure for each experimental data
-    figure('Name', sprintf('Correlation between %s and %s', indexName{1}, expData{1,ii}));
+    figure('Name', sprintf('Correlation between %s and %s', indexName{1}, expData{2,ii}));
     hold on;
 
     % Plot correlation curves for each index-property pair
@@ -129,5 +129,6 @@ end
 
 % Save figures if saveToFile is true
 if saveToFile
-    saveas(figure(1), 'correlation_T_F_E_pi.png');
+    saveas(figure(1), 'Good_a_intervals_T_F_E_pi.png');
+    saveas(figure(2), "Good_a_intervals_E_SO_a.png");
 end
