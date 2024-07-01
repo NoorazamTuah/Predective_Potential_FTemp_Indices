@@ -61,7 +61,6 @@ a_goodrho = [0.98];
 colShaded = {[0.85, 1, 1]};
 colIndicatorVert = {[0.2, 0.55, 0.55]};
 colIndicatorHorz = {[0.35, 0.75, 0.75]};
-colCurve = {[0, 0.75, 0.75]};
 
 % Iterate over each experimental data (E_{π})
 for ii = 1:numData
