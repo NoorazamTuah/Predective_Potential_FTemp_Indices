@@ -9,4 +9,4 @@ Scripts for generating results and figures for determining predictive potential 
 
 **Scatter_plots_Ftemp.m**	Generate scatter plots, one for each pair of data.
 
-**GoldenSectionSearch_Maximum.m**	IMPORTANT: This must be placed in the working directory as it is referenced in the three other scripts. This is the Octave 7.2 implementation of the Golden Section Search algorithm. I manually translated this from the Python code. 
+**GoldenSectionSearch_Maximum_FTemp.m**	IMPORTANT: This must be placed in the working directory as it is referenced in the three other scripts. This is the Octave 7.2 implementation of the Golden Section Search algorithm. I manually translated this from the Python code. 
